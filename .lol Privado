@@ -15,7 +15,7 @@ local Tabs = {
     Main = Window:AddTab({ Title = "Lock", Icon = "" }),
 }
 
-local Section = LockTab:AddSection("Section Name")
+local Options = Fluent.Options
 
 LockTab:AddButton({
     Title = "Cam Lock",
