@@ -15,6 +15,7 @@ local Tabs = {
     Main = Window:AddTab({ Title = "Lock", Icon = "" }),
 }
 
+local Section = LockTab:AddSection("Section Name")
 
 LockTab:AddButton({
     Title = "Cam Lock",
@@ -245,7 +246,7 @@ LockTab:AddButton({
     end
 })
 
-local Section = Tab:AddSection("Visual")
+local Section = LockTab:AddSection("Visual")
 
 LockTab:AddButton({
     Title = "WallHack",
@@ -303,7 +304,7 @@ end)
     end
 })
 
-local Section = Tab:AddSection("Misc")
+local Section = LockTab:AddSection("Misc")
 
 LockTab:AddButton({
     Title = "Fps Booster",
